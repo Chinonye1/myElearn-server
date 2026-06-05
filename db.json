@@ -1,0 +1,134 @@
+{
+  "companies": [
+    {
+      "id": "1234",
+      "name": "Sony",
+      "loaction": "Japan",
+      "founderYear": 1946
+    },
+    {
+      "id": "1235",
+      "name": "Nintendo",
+      "loaction": "Japan",
+      "founderYear": 1889
+    },
+    {
+      "id": "1236",
+      "name": "Microsoft",
+      "loaction": "United States",
+      "founderYear": 1975
+    },
+    {
+      "id": "1237",
+      "name": "Sega",
+      "loaction": "Japan",
+      "founderYear": 1960
+    },
+    {
+      "id": "1238",
+      "name": "Ubisoft",
+      "loaction": "France",
+      "founderYear": 1986
+    }
+  ],
+  "games": [
+    {
+      "id": "ABCD",
+      "title": "God of war",
+      "category": "action",
+      "rating": null,
+      "companyId": "1234"
+    },
+    {
+      "id": "ABCE",
+      "title": "The Legend of Zelda: Breath of the Wild",
+      "category": "adventure",
+      "rating": null,
+      "companyId": "1235"
+    },
+    {
+      "id": "ABCF",
+      "title": "Super Mario Odyssey",
+      "category": "platformer",
+      "rating": null,
+      "companyId": "1235"
+    },
+    {
+      "id": "ABCG",
+      "title": "Halo Infinite",
+      "category": "shooter",
+      "rating": null,
+      "companyId": "1236"
+    },
+    {
+      "id": "ABCH",
+      "title": "Forza Horizon 5",
+      "category": "racing",
+      "rating": null,
+      "companyId": "1236"
+    },
+    {
+      "id": "ABCI",
+      "title": "Sonic Frontiers",
+      "category": "platformer",
+      "rating": null,
+      "companyId": "1237"
+    },
+    {
+      "id": "ABCJ",
+      "title": "Yakuza: Like a Dragon",
+      "category": "rpg",
+      "rating": null,
+      "companyId": "1237"
+    },
+    {
+      "id": "ABCK",
+      "title": "Assassin's Creed Mirage",
+      "category": "action-adventure",
+      "rating": null,
+      "companyId": "1238"
+    },
+    {
+      "id": "ABCL",
+      "title": "Far Cry 6",
+      "category": "shooter",
+      "rating": null,
+      "companyId": "1238"
+    },
+    {
+      "id": "ABCM",
+      "title": "Spider-Man 2",
+      "category": "action",
+      "rating": null,
+      "companyId": "1234"
+    },
+    {
+      "id": "ABCN",
+      "title": "Gran Turismo 7",
+      "category": "racing",
+      "rating": null,
+      "companyId": "1234"
+    },
+    {
+      "id": "ABCO",
+      "title": "Metroid Dread",
+      "category": "action-adventure",
+      "rating": null,
+      "companyId": "1235"
+    },
+    {
+      "id": "ABCP",
+      "title": "Gears 5",
+      "category": "shooter",
+      "rating": null,
+      "companyId": "1236"
+    },
+    {
+      "id": "ABCQ",
+      "title": "Persona 5 Royal",
+      "category": "rpg",
+      "rating": null,
+      "companyId": "1237"
+    }
+  ]
+}
