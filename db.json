@@ -1,134 +1,137 @@
 {
-  "companies": [
+  "categories": [
     {
-      "id": "1234",
-      "name": "Sony",
-      "loaction": "Japan",
-      "founderYear": 1946
+      "id": 1,
+      "name": "Web Development"
     },
     {
-      "id": "1235",
-      "name": "Nintendo",
-      "loaction": "Japan",
-      "founderYear": 1889
+      "id": 2,
+      "name": "Mobile Development"
     },
     {
-      "id": "1236",
-      "name": "Microsoft",
-      "loaction": "United States",
-      "founderYear": 1975
-    },
-    {
-      "id": "1237",
-      "name": "Sega",
-      "loaction": "Japan",
-      "founderYear": 1960
-    },
-    {
-      "id": "1238",
-      "name": "Ubisoft",
-      "loaction": "France",
-      "founderYear": 1986
+      "id": 3,
+      "name": "Data Science"
     }
   ],
-  "games": [
+
+  "courses": [
     {
-      "id": "ABCD",
-      "title": "God of war",
-      "category": "action",
-      "rating": null,
-      "companyId": "1234"
+      "id": 1,
+      "title": "React for Beginners",
+      "description": "Learn React from scratch and build modern web applications.",
+      "price": 15000,
+      "image": "react-course.jpg",
+      "categoryId": 1,
+      "tutorName": "John Doe",
+      "level": "Beginner",
+      "duration": "10 hours",
+      "lessons": 20,
+      "certificate": true
     },
     {
-      "id": "ABCE",
-      "title": "The Legend of Zelda: Breath of the Wild",
-      "category": "adventure",
-      "rating": null,
-      "companyId": "1235"
+      "id": 2,
+      "title": "Advanced Node.js",
+      "description": "Deep dive into Node.js, streams, clusters, and performance.",
+      "price": 20000,
+      "image": "node-course.jpg",
+      "categoryId": 1,
+      "tutorName": "Grace Lee",
+      "level": "Advanced",
+      "duration": "16 hours",
+      "lessons": 28,
+      "certificate": true
     },
     {
-      "id": "ABCF",
-      "title": "Super Mario Odyssey",
-      "category": "platformer",
-      "rating": null,
-      "companyId": "1235"
+      "id": 3,
+      "title": "Flutter & Dart",
+      "description": "Build beautiful cross-platform mobile apps with Flutter.",
+      "price": 18000,
+      "image": "flutter-course.jpg",
+      "categoryId": 2,
+      "tutorName": "Kofi Mensah",
+      "level": "Intermediate",
+      "duration": "14 hours",
+      "lessons": 24,
+      "certificate": true
     },
     {
-      "id": "ABCG",
-      "title": "Halo Infinite",
-      "category": "shooter",
-      "rating": null,
-      "companyId": "1236"
+      "id": 4,
+      "title": "iOS App Development",
+      "description": "Learn Swift and build native iOS applications.",
+      "price": 22000,
+      "image": "ios-course.jpg",
+      "categoryId": 2,
+      "tutorName": "Sara Kim",
+      "level": "Intermediate",
+      "duration": "20 hours",
+      "lessons": 30,
+      "certificate": true
     },
     {
-      "id": "ABCH",
-      "title": "Forza Horizon 5",
-      "category": "racing",
-      "rating": null,
-      "companyId": "1236"
+      "id": 5,
+      "title": "Python for Data Science",
+      "description": "Apply Python for data analysis, visualization, and ML basics.",
+      "price": 25000,
+      "image": "python-ds.jpg",
+      "categoryId": 3,
+      "tutorName": "Dr. Ada Obi",
+      "level": "Beginner",
+      "duration": "18 hours",
+      "lessons": 26,
+      "certificate": true
+    }
+  ],
+
+  "reviews": [
+    {
+      "id": 1,
+      "courseId": 1,
+      "studentName": "Nonye",
+      "rating": 5,
+      "comment": "Great course, very easy to follow.",
+      "date": "2026-06-05"
     },
     {
-      "id": "ABCI",
-      "title": "Sonic Frontiers",
-      "category": "platformer",
-      "rating": null,
-      "companyId": "1237"
+      "id": 2,
+      "courseId": 2,
+      "studentName": "Aisha",
+      "rating": 4,
+      "comment": "In-depth material and practical examples.",
+      "date": "2026-05-20"
     },
     {
-      "id": "ABCJ",
-      "title": "Yakuza: Like a Dragon",
-      "category": "rpg",
-      "rating": null,
-      "companyId": "1237"
+      "id": 3,
+      "courseId": 3,
+      "studentName": "Tunde",
+      "rating": 5,
+      "comment": "Great hands-on approach for mobile development.",
+      "date": "2026-04-12"
     },
     {
-      "id": "ABCK",
-      "title": "Assassin's Creed Mirage",
-      "category": "action-adventure",
-      "rating": null,
-      "companyId": "1238"
+      "id": 4,
+      "courseId": 5,
+      "studentName": "Amara",
+      "rating": 5,
+      "comment": "Excellent introduction to data science with practical labs.",
+      "date": "2026-03-30"
+    }
+  ],
+
+  "wishlist": [
+    {
+      "id": 1,
+      "courseId": 1,
+      "studentName": "Nonye"
     },
     {
-      "id": "ABCL",
-      "title": "Far Cry 6",
-      "category": "shooter",
-      "rating": null,
-      "companyId": "1238"
+      "id": 2,
+      "courseId": 3,
+      "studentName": "Aisha"
     },
     {
-      "id": "ABCM",
-      "title": "Spider-Man 2",
-      "category": "action",
-      "rating": null,
-      "companyId": "1234"
-    },
-    {
-      "id": "ABCN",
-      "title": "Gran Turismo 7",
-      "category": "racing",
-      "rating": null,
-      "companyId": "1234"
-    },
-    {
-      "id": "ABCO",
-      "title": "Metroid Dread",
-      "category": "action-adventure",
-      "rating": null,
-      "companyId": "1235"
-    },
-    {
-      "id": "ABCP",
-      "title": "Gears 5",
-      "category": "shooter",
-      "rating": null,
-      "companyId": "1236"
-    },
-    {
-      "id": "ABCQ",
-      "title": "Persona 5 Royal",
-      "category": "rpg",
-      "rating": null,
-      "companyId": "1237"
+      "id": 3,
+      "courseId": 5,
+      "studentName": "Tunde"
     }
   ]
 }
