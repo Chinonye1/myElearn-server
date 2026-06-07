@@ -19,7 +19,7 @@
       "title": "React for Beginners",
       "description": "Learn React from scratch and build modern web applications.",
       "price": 15000,
-      "image": "react-course.jpg",
+      "image": "https://cloudmatetechnologies.com/wp-content/uploads/2024/06/react.js.png",
       "categoryId": 1,
       "tutorName": "John Doe",
       "level": "Beginner",
@@ -32,7 +32,7 @@
       "title": "Advanced Node.js",
       "description": "Deep dive into Node.js, streams, clusters, and performance.",
       "price": 20000,
-      "image": "node-course.jpg",
+      "image": "https://miro.medium.com/1*Ojh_geZ9dR6L49yO7rim1Q.jpeg",
       "categoryId": 1,
       "tutorName": "Grace Lee",
       "level": "Advanced",
@@ -45,7 +45,7 @@
       "title": "Flutter & Dart",
       "description": "Build beautiful cross-platform mobile apps with Flutter.",
       "price": 18000,
-      "image": "flutter-course.jpg",
+      "image": "https://www.elpassion.com/hs-fs/hubfs/BLOG%20IMAGES/1_QCajckOeBhRaLzi0RoFqig.png?width=1400&name=1_QCajckOeBhRaLzi0RoFqig.png",
       "categoryId": 2,
       "tutorName": "Kofi Mensah",
       "level": "Intermediate",
@@ -58,7 +58,7 @@
       "title": "iOS App Development",
       "description": "Learn Swift and build native iOS applications.",
       "price": 22000,
-      "image": "ios-course.jpg",
+      "image": "https://www.etatvasoft.com/blog/wp-content/uploads/2016/12/b-thumb-img17.jpg",
       "categoryId": 2,
       "tutorName": "Sara Kim",
       "level": "Intermediate",
@@ -71,7 +71,7 @@
       "title": "Python for Data Science",
       "description": "Apply Python for data analysis, visualization, and ML basics.",
       "price": 25000,
-      "image": "python-ds.jpg",
+      "image": "https://infycletechnologies.com/wp-content/uploads/2023/07/Python-Data-Science.webp",
       "categoryId": 3,
       "tutorName": "Dr. Ada Obi",
       "level": "Beginner",
@@ -85,6 +85,7 @@
       "id": 1,
       "courseId": 1,
       "studentName": "Nonye",
+      "studentImage": "https://images.unsplash.com/photo-1531123414780-f5a5f3b4b94e?auto=format&fit=crop&w=400&q=60",
       "rating": 5,
       "comment": "Great course, very easy to follow.",
       "date": "2026-06-05"
@@ -93,6 +94,7 @@
       "id": 2,
       "courseId": 2,
       "studentName": "Aisha",
+      "studentImage": "https://images.unsplash.com/photo-1545996124-1c28a8c1d6da?auto=format&fit=crop&w=400&q=60",
       "rating": 4,
       "comment": "In-depth material and practical examples.",
       "date": "2026-05-20"
@@ -101,6 +103,7 @@
       "id": 3,
       "courseId": 3,
       "studentName": "Tunde",
+      "studentImage": "https://images.unsplash.com/photo-1527980965255-d3b416303d12?auto=format&fit=crop&w=400&q=60",
       "rating": 5,
       "comment": "Great hands-on approach for mobile development.",
       "date": "2026-04-12"
@@ -109,6 +112,7 @@
       "id": 4,
       "courseId": 5,
       "studentName": "Amara",
+      "studentImage": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=400&q=60",
       "rating": 5,
       "comment": "Excellent introduction to data science with practical labs.",
       "date": "2026-03-30"
@@ -118,17 +122,20 @@
     {
       "id": 1,
       "courseId": 1,
-      "studentName": "Nonye"
+      "studentName": "Nonye",
+      "studentImage": "https://images.unsplash.com/photo-1531123414780-f5a5f3b4b94e?auto=format&fit=crop&w=400&q=60"
     },
     {
       "id": 2,
       "courseId": 3,
-      "studentName": "Aisha"
+      "studentName": "Aisha",
+      "studentImage": "https://images.unsplash.com/photo-1545996124-1c28a8c1d6da?auto=format&fit=crop&w=400&q=60"
     },
     {
       "id": 3,
       "courseId": 5,
-      "studentName": "Tunde"
+      "studentName": "Tunde",
+      "studentImage": "https://images.unsplash.com/photo-1527980965255-d3b416303d12?auto=format&fit=crop&w=400&q=60"
     }
   ]
 }
