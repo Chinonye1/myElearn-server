@@ -1,18 +1,4 @@
 {
-  "categories": [
-    {
-      "id": 1,
-      "name": "Web Development"
-    },
-    {
-      "id": 2,
-      "name": "Mobile Development"
-    },
-    {
-      "id": 3,
-      "name": "Data Science"
-    }
-  ],
   "courses": [
     {
       "id": 1,
@@ -20,7 +6,7 @@
       "description": "Learn React from scratch and build modern web applications.",
       "price": 15000,
       "image": "https://cloudmatetechnologies.com/wp-content/uploads/2024/06/react.js.png",
-      "categoryId": 1,
+      "category": "Web Development",
       "tutorName": "John Doe",
       "level": "Beginner",
       "duration": "10 hours",
@@ -33,7 +19,7 @@
       "description": "Deep dive into Node.js, streams, clusters, and performance.",
       "price": 20000,
       "image": "https://miro.medium.com/1*Ojh_geZ9dR6L49yO7rim1Q.jpeg",
-      "categoryId": 1,
+      "category": "Web Development",
       "tutorName": "Grace Lee",
       "level": "Advanced",
       "duration": "16 hours",
@@ -46,7 +32,7 @@
       "description": "Build beautiful cross-platform mobile apps with Flutter.",
       "price": 18000,
       "image": "https://www.elpassion.com/hs-fs/hubfs/BLOG%20IMAGES/1_QCajckOeBhRaLzi0RoFqig.png?width=1400&name=1_QCajckOeBhRaLzi0RoFqig.png",
-      "categoryId": 2,
+      "category": "Mobile Development",
       "tutorName": "Kofi Mensah",
       "level": "Intermediate",
       "duration": "14 hours",
@@ -59,7 +45,7 @@
       "description": "Learn Swift and build native iOS applications.",
       "price": 22000,
       "image": "https://www.etatvasoft.com/blog/wp-content/uploads/2016/12/b-thumb-img17.jpg",
-      "categoryId": 2,
+      "category": "Mobile Development",
       "tutorName": "Sara Kim",
       "level": "Intermediate",
       "duration": "20 hours",
@@ -72,11 +58,141 @@
       "description": "Apply Python for data analysis, visualization, and ML basics.",
       "price": 25000,
       "image": "https://infycletechnologies.com/wp-content/uploads/2023/07/Python-Data-Science.webp",
-      "categoryId": 3,
+      "category": "Data Science",
       "tutorName": "Dr. Ada Obi",
       "level": "Beginner",
       "duration": "18 hours",
       "lessons": 26,
+      "certificate": true
+    },
+    {
+      "id": 6,
+      "title": "Full-Stack JavaScript",
+      "description": "Build full-stack applications using Node, Express, and React.",
+      "price": 30000,
+      "image": "https://cdn.sanity.io/images/708bnrs8/production/c4d4cf6a553be08bbd5f905ea8627d84d9a78a2c-704x405.png?w=720&h=405&fit=fill",
+      "category": "Web Development",
+      "tutorName": "Peter Nwosu",
+      "level": "Advanced",
+      "duration": "40 hours",
+      "lessons": 50,
+      "certificate": true
+    },
+    {
+      "id": 7,
+      "title": "CSS Grid & Flexbox Mastery",
+      "description": "Master modern layout techniques for responsive design.",
+      "price": 8000,
+      "image": "https://atyantik.com/wp-content/uploads/2025/03/flexbox-vs-grid.jpg",
+      "category": "Web Development",
+      "tutorName": "Lilian Owusu",
+      "level": "Intermediate",
+      "duration": "8 hours",
+      "lessons": 12,
+      "certificate": false
+    },
+    {
+      "id": 8,
+      "title": "Android Kotlin Development",
+      "description": "Create native Android apps using Kotlin and modern tools.",
+      "price": 20000,
+      "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=800&q=60",
+      "category": "Mobile Development",
+      "tutorName": "Rahul Singh",
+      "level": "Intermediate",
+      "duration": "22 hours",
+      "lessons": 32,
+      "certificate": true
+    },
+    {
+      "id": 9,
+      "title": "React Native Crash Course",
+      "description": "Build cross-platform mobile apps quickly with React Native.",
+      "price": 17000,
+      "image": "https://cdn.shopaccino.com/igmguru/articles/What-Is-React-Native.png?v=548",
+      "category": "Mobile Development",
+      "tutorName": "Emeka Ude",
+      "level": "Beginner",
+      "duration": "12 hours",
+      "lessons": 18,
+      "certificate": true
+    },
+    {
+      "id": 10,
+      "title": "Data Engineering with Python",
+      "description": "Design ETL pipelines and process large datasets efficiently.",
+      "price": 28000,
+      "image": "https://cdn.educba.com/academy/wp-content/uploads/2021/10/Data-Engineer-with-Python.jpg",
+      "category": "Data Science",
+      "tutorName": "Chioma Akpan",
+      "level": "Advanced",
+      "duration": "30 hours",
+      "lessons": 40,
+      "certificate": true
+    },
+    {
+      "id": 11,
+      "title": "Machine Learning A-Z",
+      "description": "Complete machine learning workflow from preprocessing to deployment.",
+      "price": 35000,
+      "image": "https://solutionsreview.com/business-intelligence/files/2022/01/MicrosoftTeams-image-13.jpg",
+      "category": "Machine Learning",
+      "tutorName": "Dr. Kelechi",
+      "level": "Advanced",
+      "duration": "36 hours",
+      "lessons": 42,
+      "certificate": true
+    },
+    {
+      "id": 12,
+      "title": "UI/UX Design Fundamentals",
+      "description": "Learn principles of user-centered design and prototyping.",
+      "price": 12000,
+      "image": "https://www.collidu.com/media/catalog/product/img/8/7/8712bef072bc3d08ba35cf242b8ade8d615d12bc6d0f8c1ce00f8b1d33692ff9/ui-ux-fundamentals-slide1.png",
+      "category": "UI/UX",
+      "tutorName": "Nneka Obi",
+      "level": "Beginner",
+      "duration": "10 hours",
+      "lessons": 15,
+      "certificate": false
+    },
+    {
+      "id": 13,
+      "title": "DevOps with Docker & Kubernetes",
+      "description": "Containerize apps and orchestrate with Kubernetes.",
+      "price": 32000,
+      "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&q=60",
+      "category": "DevOps",
+      "tutorName": "Ibrahim Musa",
+      "level": "Advanced",
+      "duration": "28 hours",
+      "lessons": 35,
+      "certificate": true
+    },
+    {
+      "id": 14,
+      "title": "SQL for Data Analysis",
+      "description": "Learn SQL querying and optimization for analytics.",
+      "price": 9000,
+      "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=800&q=60",
+      "category": "Data Science",
+      "tutorName": "Maya Patel",
+      "level": "Beginner",
+      "duration": "9 hours",
+      "lessons": 14,
+      "certificate": true
+    },
+    {
+      "id": 15,
+      "title": "Cloud Fundamentals (AWS)",
+      "description": "Introduction to cloud concepts and core AWS services.",
+      "price": 21000,
+      "image": "https://images.unsplash.com/photo-1508830524289-0adcbe822b40?auto=format&fit=crop&w=800&q=60",
+      "category": "Cloud",
+      "tutorName": "Samir Hassan",
+      "level": "Intermediate",
+      "duration": "18 hours",
+      "lessons": 22,
       "certificate": true
     }
   ],
