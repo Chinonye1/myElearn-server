@@ -130,19 +130,8 @@
       "lessons": 40,
       "certificate": true
     },
-    {
-      "id": 11,
-      "title": "Machine Learning A-Z",
-      "description": "Complete machine learning workflow from preprocessing to deployment.",
-      "price": 35000,
-      "image": "https://solutionsreview.com/business-intelligence/files/2022/01/MicrosoftTeams-image-13.jpg",
-      "category": "Machine Learning",
-      "tutorName": "Dr. Kelechi",
-      "level": "Advanced",
-      "duration": "36 hours",
-      "lessons": 42,
-      "certificate": true
-    },
+
+
     {
       "id": 12,
       "title": "UI/UX Design Fundamentals",
