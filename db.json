@@ -130,8 +130,6 @@
       "lessons": 40,
       "certificate": true
     },
-
-
     {
       "id": 12,
       "title": "UI/UX Design Fundamentals",
@@ -151,7 +149,7 @@
       "description": "Containerize apps and orchestrate with Kubernetes.",
       "price": 32000,
       "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&q=60",
-      "category": "Cloud and DevOps ",
+      "category": "Cloud and DevOps",
       "tutorName": "Ibrahim Musa",
       "level": "Advanced",
       "duration": "28 hours",
@@ -177,7 +175,7 @@
       "description": "Introduction to cloud concepts and core AWS services.",
       "price": 21000,
       "image": "https://images.unsplash.com/photo-1508830524289-0adcbe822b40?auto=format&fit=crop&w=800&q=60",
-      "category": "Cloud and DevOps ",
+      "category": "Cloud and DevOps",
       "tutorName": "Samir Hassan",
       "level": "Intermediate",
       "duration": "18 hours",
@@ -189,38 +187,152 @@
     {
       "id": 1,
       "courseId": 1,
+      "category": "Web Development",
       "studentName": "Nonye",
       "studentImage": "https://images.unsplash.com/photo-1531123414780-f5a5f3b4b94e?auto=format&fit=crop&w=400&q=60",
       "rating": 5,
-      "comment": "Great course, very easy to follow.",
+      "comment": "Great course, very easy to follow. The lessons were clear enough for me to practice after each module.",
       "date": "2026-06-05"
     },
     {
       "id": 2,
       "courseId": 2,
+      "category": "Web Development",
       "studentName": "Aisha",
       "studentImage": "https://images.unsplash.com/photo-1545996124-1c28a8c1d6da?auto=format&fit=crop&w=400&q=60",
       "rating": 4,
-      "comment": "In-depth material and practical examples.",
+      "comment": "In-depth material and practical examples. I liked how the instructor connected advanced concepts to real Node.js projects.",
       "date": "2026-05-20"
     },
     {
       "id": 3,
-      "courseId": 3,
-      "studentName": "Tunde",
-      "studentImage": "https://images.unsplash.com/photo-1527980965255-d3b416303d12?auto=format&fit=crop&w=400&q=60",
+      "courseId": 6,
+      "category": "Web Development",
+      "studentName": "Daniel",
+      "studentImage": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=400&q=60",
       "rating": 5,
-      "comment": "Great hands-on approach for mobile development.",
-      "date": "2026-04-12"
+      "comment": "The full-stack project made everything click. It helped me understand how the frontend and backend work together.",
+      "date": "2026-05-08"
     },
     {
       "id": 4,
+      "courseId": 3,
+      "category": "Mobile Development",
+      "studentName": "Tunde",
+      "studentImage": "https://images.unsplash.com/photo-1527980965255-d3b416303d12?auto=format&fit=crop&w=400&q=60",
+      "rating": 5,
+      "comment": "Great hands-on approach for mobile development. Building small features along the way made the course easy to remember.",
+      "date": "2026-04-12"
+    },
+    {
+      "id": 5,
+      "courseId": 4,
+      "category": "Mobile Development",
+      "studentName": "Mina",
+      "studentImage": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=400&q=60",
+      "rating": 4,
+      "comment": "Swift concepts were explained clearly with useful app examples. I felt more confident reading and writing iOS code afterward.",
+      "date": "2026-04-02"
+    },
+    {
+      "id": 6,
+      "courseId": 8,
+      "category": "Mobile Development",
+      "studentName": "Chinedu",
+      "studentImage": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=400&q=60",
+      "rating": 5,
+      "comment": "The Kotlin sections were practical and easy to apply. The exercises matched the kind of Android work I wanted to learn.",
+      "date": "2026-03-18"
+    },
+    {
+      "id": 7,
       "courseId": 5,
+      "category": "Data Science",
       "studentName": "Amara",
       "studentImage": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=400&q=60",
       "rating": 5,
-      "comment": "Excellent introduction to data science with practical labs.",
+      "comment": "Excellent introduction to data science with practical labs. The notebooks made it easier to understand the workflow from data cleaning to analysis.",
       "date": "2026-03-30"
+    },
+    {
+      "id": 8,
+      "courseId": 10,
+      "category": "Data Science",
+      "studentName": "Yemi",
+      "studentImage": "https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?auto=format&fit=crop&w=400&q=60",
+      "rating": 4,
+      "comment": "The ETL pipeline lessons were clear and immediately useful. I especially appreciated the examples for handling larger datasets.",
+      "date": "2026-03-10"
+    },
+    {
+      "id": 9,
+      "courseId": 14,
+      "category": "Data Science",
+      "studentName": "Priya",
+      "studentImage": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&q=60",
+      "rating": 5,
+      "comment": "SQL exercises were well paced and analytics-focused. The practice queries helped me get comfortable with real reporting tasks.",
+      "date": "2026-02-26"
+    },
+    {
+      "id": 10,
+      "courseId": 12,
+      "category": "UI/UX",
+      "studentName": "Lola",
+      "studentImage": "https://images.unsplash.com/photo-1548142813-c348350df52b?auto=format&fit=crop&w=400&q=60",
+      "rating": 5,
+      "comment": "The design process felt practical from research to prototype. I learned how to make better decisions before jumping into visuals.",
+      "date": "2026-02-14"
+    },
+    {
+      "id": 11,
+      "courseId": 12,
+      "category": "UI/UX",
+      "studentName": "Victor",
+      "studentImage": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=400&q=60",
+      "rating": 4,
+      "comment": "Strong foundation for user flows and wireframes. The examples made it easier to see how UX choices affect the final product.",
+      "date": "2026-02-01"
+    },
+    {
+      "id": 12,
+      "courseId": 12,
+      "category": "UI/UX",
+      "studentName": "Ebere",
+      "studentImage": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=400&q=60",
+      "rating": 5,
+      "comment": "The prototyping lessons helped me improve my portfolio case study. I now have a clearer process for presenting design decisions.",
+      "date": "2026-01-22"
+    },
+    {
+      "id": 13,
+      "courseId": 13,
+      "category": "Cloud and DevOps",
+      "studentName": "Hassan",
+      "studentImage": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=60",
+      "rating": 5,
+      "comment": "Docker and Kubernetes were broken down into manageable steps. The course made deployment concepts feel much less intimidating.",
+      "date": "2026-01-12"
+    },
+    {
+      "id": 14,
+      "courseId": 15,
+      "category": "Cloud and DevOps",
+      "studentName": "Rachel",
+      "studentImage": "https://images.unsplash.com/photo-1534751516642-a1af1ef26a56?auto=format&fit=crop&w=400&q=60",
+      "rating": 4,
+      "comment": "Great overview of AWS services for beginners. The explanations helped me understand which services fit common cloud use cases.",
+      "date": "2025-12-19"
+    },
+    {
+      "id": 15,
+      "courseId": 13,
+      "category": "Cloud and DevOps",
+      "studentName": "Musa",
+      "studentImage": "https://images.unsplash.com/photo-1506277886164-e25aa3f4ef7f?auto=format&fit=crop&w=400&q=60",
+      "rating": 5,
+      "comment": "The deployment workflow was exactly what I needed. I can now follow a cleaner process when moving apps from local development to production.",
+      "date": "2025-12-05"
     }
   ],
   "wishlist": [
